@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html>
-<h1>Hello Bubby!</h1>
+<h1>Molecular Biology Protocols</h1>
 
 <link rel="stylesheet" href="style.css">
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Seed')">Seeding</button>
+  <button class="tablinks" onclick="openCity(event, 'Transfect')">Transfect</button>
+  <button class="tablinks" onclick="openCity(event, 'Blot')">Western Blot</button>
 </div>
 
 <!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>This is a website we made to help calculate when doing some lab protocols.</p>
+</div>
+<div id="Seed" class="tabcontent">
+  <h3>Seeding</h3>
+  <p>
+    In molecular biology, "seeding" refers to placing cells into a culture vessel (like a petri dish, flask, or well plate) to initiate cell culture. This fundamental process involves introducing a concentrated cell suspension and diluting it into a culture medium, allowing the cells to attach, proliferate, and form a uniform layer for experiments like drug testing or genetic research. The process is also called "plating" and is crucial for experiments that require a consistent and reproducible cell population.
+  </p>
 </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
+<div id="Transfect" class="tabcontent">
+  <h3>Transfect</h3>
+  <p>
+   Transfection is a molecular biology technique used to introduce foreign nucleic acids, such as DNA or RNA, into eukaryotic cells to modify their genetic makeup or function. This process uses chemical, physical, or biological (viral) methods to deliver the genetic material into the cell, allowing researchers to study gene function, create cell models, or explore potential therapeutic applications like gene therapy.
+  </p>
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="Blot" class="tabcontent">
+  <h3>Western Blot</h3>
+  <p>
+    A western blot is a molecular biology technique used to detect and quantify specific proteins in a complex mixture by separating them by size using gel electrophoresis, transferring them to a membrane, and then using antibodies to identify the target protein. The final detection step typically involves a labeled antibody that generates a signal (like a colored or luminescent band) corresponding to the protein's size, allowing researchers to confirm the protein's presence, size, and relative abundance.
+  </p>
 </div>
 
 <script src="script.js"></script>
